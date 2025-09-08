@@ -79,6 +79,24 @@ cd verl
 pip install -e .
 ```
 
+### Update 9.8
+Recently, we find the deprecation of pyairports caused a lot of environment issues. Thus, we now provide a bit more complicated way for installing the environment. 
+```bash
+conda create -n luffy python=3.10
+conda activate luffy
+pip install airports-py
+git clone https://github.com/dottxt-ai/outlines.git
+cd outlines
+git checkout 0.0.46
+pip install .
+cd ../luffy
+pip install -r requirements.v2.txt
+pip install -e .
+cd verl
+pip install -e .
+```
+
+
 If you encounter issues when installing flash-attn, we recommend you to install it here 
 [flash-attn](https://github.com/Dao-AILab/flash-attention/releases/tag/v2.7.3). For example, we use this version. 
 ```bash
