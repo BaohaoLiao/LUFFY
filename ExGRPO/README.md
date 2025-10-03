@@ -108,6 +108,9 @@ cd data
 python prepare_train.py --dataset_name Elliott/Openr1-Math-46k-8192 --output_file openr1.parquet
 ```
 
+> **Note**: Although we utilize the OpenR1 data, only the question field is used in RLVR. The ExGRPO data processing pipeline does not incorporate the external R1 trajectory during training.
+
+
 ## Training
 
 We provide an example script to train ExGRPO on 46k-subset of OpenR1-Math-220k. You can run the following command to train:
