@@ -33,7 +33,7 @@
 
 # 📢News
 
-- **[2025/09/30]** ExGRPO paper available on [arXiv](https://arxiv.org/abs/2510.02245). 
+- **[2025/10/03]** ExGRPO paper is available on [arXiv](https://arxiv.org/abs/2510.02245). 
 
 ---
 
