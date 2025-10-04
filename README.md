@@ -352,7 +352,8 @@ For questions, feedback, or collaboration opportunities, feel free to reach out:
 - Yafu Li: yafuly@gmail.com
 
 # Citation
-If you find our model, data, or evaluation code useful, please kindly cite our paper:
+If you find our model, data, or evaluation code useful, please kindly cite our paper.
+**LUFFY**:
 ```bib
 @misc{luffy,
       title={Learning to Reason under Off-Policy Guidance}, 
@@ -362,6 +363,16 @@ If you find our model, data, or evaluation code useful, please kindly cite our p
       archivePrefix={arXiv},
       primaryClass={cs.LG},
       url={https://arxiv.org/abs/2504.14945}, 
+}
+```
+**ExGRPO**:
+@article{zhan2025exgrpo,
+      title={ExGRPO: Learning to Reason from Experience}, 
+      author={Runzhe Zhan and Yafu Li and Zhi Wang and Xiaoye Qu and Dongrui Liu and Jing Shao and Derek F. Wong and Yu Cheng},
+      year={2025},
+      journal = {ArXiv preprint},
+      volume = {2510.02245},
+      url={https://arxiv.org/abs/2510.02245}, 
 }
 ```
 
