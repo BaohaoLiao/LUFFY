@@ -114,6 +114,7 @@ This repository includes:
 - `data`: Data and code for training and evaluating LUFFY. 
 - `exp_scripts`: Example script to train LUFFY.
 - `eval_scripts`: Evaluation scripts on math and out-of-distribution benchmarks.
+- `ExGRPO`: Implementation and notes for ExGRPO, which leverages off-policy experience replay to further boost performance without external guidance.
 
 LUFFY is built on top of the GRPO framework and supports plug-and-play integration with off-policy traces from models such as DeepSeek-R1.
 
