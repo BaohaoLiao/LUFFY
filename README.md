@@ -366,6 +366,7 @@ If you find our model, data, or evaluation code useful, please kindly cite our p
 }
 ```
 **ExGRPO**:
+```bib
 @article{zhan2025exgrpo,
       title={ExGRPO: Learning to Reason from Experience}, 
       author={Runzhe Zhan and Yafu Li and Zhi Wang and Xiaoye Qu and Dongrui Liu and Jing Shao and Derek F. Wong and Yu Cheng},
