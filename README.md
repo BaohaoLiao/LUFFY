@@ -353,6 +353,8 @@ For questions, feedback, or collaboration opportunities, feel free to reach out:
 
 # Citation
 If you find our model, data, or evaluation code useful, please kindly cite our paper.
+
+
 **LUFFY**:
 ```bib
 @misc{luffy,
@@ -365,6 +367,8 @@ If you find our model, data, or evaluation code useful, please kindly cite our p
       url={https://arxiv.org/abs/2504.14945}, 
 }
 ```
+
+
 **ExGRPO**:
 ```bib
 @article{zhan2025exgrpo,
