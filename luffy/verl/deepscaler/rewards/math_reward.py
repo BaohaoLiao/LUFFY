@@ -9,7 +9,6 @@ from deepscaler.globals import THOUGHT_DELIMITER_START, THOUGHT_DELIMITER_END, O
 from deepscaler.rewards import RewardConfig, RewardFn, RewardInput, RewardOutput, RewardType
 from deepscaler.rewards.math_utils.utils import extract_answer, grade_answer_sympy, grade_answer_mathd
 from deepscaler.system_prompts import ORM_PROMPT
-from deepscaler.utils import call_gemini_llm, call_oai_rm_llm
 
 ORM_USER_TEMPLATE = """
 Problem: {problem}
@@ -73,6 +72,8 @@ class RewardMathFn(RewardFn):
 
         # If latex heuristics fail and ORM is enabled, use LLM as ORM to evaluate correctness
         if self.config.use_math_orm:
+            from deepscaler.utils import call_gemini_llm, call_oai_rm_llm
+            
             for ground_truth in processed_ground_truths:
                 try:
                     orm_response = call_gemini_llm(
