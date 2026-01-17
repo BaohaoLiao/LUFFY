@@ -45,7 +45,12 @@ elif package_version == '0.6.3':
     from .vllm_v_0_6_3.llm import LLM
     from .vllm_v_0_6_3.llm import LLMEngine
     from .vllm_v_0_6_3 import parallel_state
+elif package_version == '0.8.0':
+    vllm_version = '0.8.0'
+    from .vllm_v_0_8_0.llm import LLM
+    from .vllm_v_0_8_0.llm import LLMEngine
+    from .vllm_v_0_8_0 import parallel_state
 else:
     raise ValueError(
-        f'vllm version {package_version} not supported. Currently supported versions are 0.3.1, 0.4.2, 0.5.4 and 0.6.3.'
+        f'vllm version {package_version} not supported. Currently supported versions are 0.3.1, 0.4.2, 0.5.4, 0.6.3 and 0.8.0.'
     )
